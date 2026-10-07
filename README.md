@@ -1,9 +1,9 @@
 # Portable USB Blender — sales funnel
 
-Static, dependency-free implementation of `project/Portable Blender Funnel.dc.html`.
+Static, dependency-free implementation of the Claude Design prototype in
+`design/project/Portable Blender Funnel.dc.html` (the full design export, including the chat, is in `design/`).
 
 ```
-site/
   index.html   page content (Arabic, RTL, SEO meta + Product JSON-LD)
   styles.css   design tokens and layout (mobile-first, no frameworks)
   app.js       wilaya selector, delivery/total calculation, validation,
@@ -11,8 +11,8 @@ site/
   images/      product photos
 ```
 
-Deploy by uploading the `site/` folder to any static host (Netlify, Vercel, GitHub Pages, cPanel…).
-Preview locally with `python3 -m http.server -d site 8000`.
+Deploy the repository root to any static host (GitHub Pages, Netlify, Vercel, cPanel…); `design/` can be left out.
+Preview locally with `python3 -m http.server 8000`.
 
 ## Before going live
 
